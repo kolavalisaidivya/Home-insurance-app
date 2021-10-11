@@ -1,0 +1,9 @@
+#progress{
+    background-color:green;
+    text-align: right;
+}
+#progress-bar
+{
+    background-color: lightgray;
+    border-radius: 0;
+}

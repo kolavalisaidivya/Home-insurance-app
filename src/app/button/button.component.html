@@ -1,0 +1,17 @@
+<div class="container col-7">
+    <div>
+        
+        <label class="checkbox-inline">
+            <input type='checkbox' onchange="document.getElementById('bt').disabled = !this.checked;"
+            name='agree' id='agree' value=''> I have read the required notification to the customer and understand customer reports cannot be run before I provide this notification.</label>
+    </div>
+    
+    <div class= "row">
+        <div class="col ">
+            <button type="button" (click)= "prev()" class="rounded-pill btn-block" id="bt1" >Back</button>
+        </div>
+        <div class="col ">
+            <button type="button" class="rounded-pill btn-block" id="bt" (click)="next()" disabled>Continue</button>
+        </div>
+    </div>
+</div>

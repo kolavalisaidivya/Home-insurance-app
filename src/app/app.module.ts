@@ -3,10 +3,24 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CustomerConsentComponent } from './customer-consent/customer-consent.component';
+import { ProgressBarComponent } from './progress-bar/progress-bar.component';
+import { HeadingComponent } from './heading/heading.component';
+import { ContentComponent } from './content/content.component';
+import { ButtonComponent } from './button/button.component';
+import { NextComponent } from './next/next.component';
+import { PrevComponent } from './prev/prev.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CustomerConsentComponent,
+    ProgressBarComponent,
+    HeadingComponent,
+    ContentComponent,
+    ButtonComponent,
+    NextComponent,
+    PrevComponent
   ],
   imports: [
     BrowserModule,
