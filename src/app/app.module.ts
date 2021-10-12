@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { CustomerConsentComponent } from './customer-consent/customer-consent.component';
 import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 import { ContentComponent } from './content/content.component';
-import { ButtonComponent } from './button/button.component';
 import { NextComponent } from './next/next.component';
 import { PrevComponent } from './prev/prev.component';
 
@@ -16,7 +15,6 @@ import { PrevComponent } from './prev/prev.component';
     CustomerConsentComponent,
     ProgressBarComponent,
     ContentComponent,
-    ButtonComponent,
     NextComponent,
     PrevComponent
   ],

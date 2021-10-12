@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-content',
@@ -7,9 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContentComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router:Router,) { }
 
   ngOnInit(): void {
   }
+  prev()
+  {
+    this.router.navigate(['prev']);
+  }
+  next()
+  {
+    this.router.navigate(['next']);
 
+  }
 }
